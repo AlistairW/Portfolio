@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet"> <!--font-family: 'Libre Barcode 128 Text', cursive; --->
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="A.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="navDiv">
+     <nav>
+    <!--    <div id="center">
+            <div id="LOGOcontainer">
+              <div class="logo">
+            </div>
+            <div class="circleBackground"></div>
+          
+                  <div class="AW">
+                    <ul>
+                      <li>AW</li>
+                    </ul>
+                </div>
+              <span id="uxdesigns">
+                <p id="logop">UXdesigns</p>
+              </span>
+            </div>
+          </div> -->
+    
+    <a href="#navDiv" id="annitials">AKW</a>
+
+    <div id="navLinks">
+    <a href="about_me">About me</a>
+    <a href="projects">Projects</a>
+    <a href="contact">Contact</a>
+    </div>
+
+    <div class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff"
+            stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff"
+            stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff"
+            stroke-width="5"/>
+          </svg>
+        </a>
+      </span>
+     <!-- resposivebar -->
+    <div id="side-menu" class="side-nav">
+      <a href="#"  class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href="about_me">About me</a>
+      <a href="projects">Projects</a>
+      <a href="contact">Contact</a>
+    </div>
+  </div>
+    <script>
+      function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementById('main').style.marginLeft = '250px';
+      }
+      function closeSlideMenu(){
+        document.getElementById('side-menu').style.width = '0px';
+        document.getElementById('main').style.marginLeft = '0px';
+      }
+    </script>
+  
+  </div>
+    </nav>
+    
+ 
+
+
+
+
+
+
+    <section id="home">
+        <img src="me2.jpg" alt="meFace">
+        
+        <p>"The secret to getting ahead is getting started." - <cite>Mark Twain</cite></p>
+       
+        <div id="socialMedia">
+          <a class="socials" href="facebook"><img src="facebook.png" alt="Facebook"></a>
+          <a class="socials" href="LinkedIn"><img src="linkedin.png" alt="LinkedIn"></a>
+          <a class="socials" href="Whatsapp"><img src="whatsapp.png" alt="Whatsapp"></a>
+      </div>
+
+      </section>
+    <section id="about_me">
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi qui ut accusantium, voluptatem commodi reprehenderit voluptates soluta minus molestias nihil. Reiciendis provident laborum ducimus iste sed doloremque in mollitia animi!
+        </p>
+        
+        
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="skills">
+
+        
+
+    </section>
+
+
+
+
+    <section id="contact">
+
+        <p>Tel: 061 348 4025</p>
+        <p id="email">E-mail: <mail>alistairwileman@gamil.com</mail></p>
+    <div id="socailMedia">
+        <p>Social Media:</p>
+        <a class="socials" href="facebook"><img src="facebook.png" alt="Facebook"></a>
+        <a class="socials" href="LinkedIn"><img src="linkedin.png" alt="LinkedIn"></a>
+        <a class="socials" href="Whatsapp"><img src="whatsapp.png" alt="Whatsapp"></a>
+    </div>
+
+    </section>
+
+
+
+
+
+</body>
+</html>
