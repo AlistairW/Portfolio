@@ -10,6 +10,7 @@ body{
     background-color: black;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
+    padding: auto;
     
 
 }
@@ -112,8 +113,10 @@ nav {
     height: 82vh; 
     /* home section and navbar Equate to 100vh */
     display: grid;
+    justify-self: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin: auto 0;
 }
 
 #home > img{
@@ -142,14 +145,11 @@ nav {
 }
  /* ARROW */
 .center-con{
-    display: grid;
     height: 30px;
     align-items: center;
     justify-content:center ;
     justify-self: center;
     margin-top: 5em;
-    margin-left: 10em;
-    
 }
 
 .round{
@@ -333,14 +333,10 @@ span:nth-child(4) {
         margin-left: 50px;
     }
     .center-con{
-        
         height: 30px;
         align-items: center;
         justify-self:center;
         margin-top: -7em;
-        left: 50vh;
-        
-        
     }
     .round{
         position: relative;
@@ -373,13 +369,13 @@ span:nth-child(4) {
 }
 #socialMedia {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 3/4;
     margin-top: -3em;
     justify-self: end;
     
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 376px){
  #home > img{
         border-radius: 50%;
         grid-column: 1/4;
@@ -391,13 +387,32 @@ span:nth-child(4) {
         margin-top: -9em;
     }
     .center-con{
-        display: grid;
-        height: 30px;
-        align-items: center;
-        justify-content:center ;
+        height: 20px;
+        grid-column: 1/4;
+        justify-items: center;
         justify-self: center;
-        margin-top: -14em;;
-        
+        position: fixed;
     }
-
+    .round{
+        justify-items: center;
+    }
+    #socialMedia {
+        grid-column: 1/4;
+        grid-row: 3;
+        width: 200px;
+        justify-items: end;
+        margin-right: -5em;
+    }
+    
+    #home > p{
+        color: wheat;
+        grid-row: 3;
+        grid-column: 1/4;
+        justify-self: center;
+        align-self: center;
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: -19rem;
+}
 }
