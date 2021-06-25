@@ -375,26 +375,17 @@ span:nth-child(4) {
     
 }
 
-@media only screen and (max-width: 376px){
- #home > img{
-        border-radius: 50%;
-        grid-column: 1/4;
-        grid-row: 1/3;
-        justify-self: center;
-        align-self: center;
-        width: 17rem;
-        left:10px;
-        margin-top: -9em;
-    }
+@media only screen and (max-width: 375px){
+
     .center-con{
         height: 20px;
         grid-column: 1/4;
-        justify-items: center;
         justify-self: center;
-        position: fixed;
+        position: relative;
+        right: 27px;
     }
     .round{
-        justify-items: center;
+
     }
     #socialMedia {
         grid-column: 1/4;
