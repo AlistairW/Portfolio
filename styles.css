@@ -51,7 +51,6 @@ nav {
     -moz-animation: glow 8s ease-in-out infinite alternate;
     animation: glow 8s ease-in-out infinite alternate;
     -webkit-background-clip: text;
-    
     background-size: 300%;
     background-position: -100%;
     animation: annitialsText 400ms infinite alternate-reverse;
@@ -76,10 +75,11 @@ nav {
 #navLinks{
     z-index: 2;
     grid-column: 3;
-    justify-self: center;
+    justify-self:end;
     align-self: center;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
+    margin-right: 2em;
     
 }
 #navLinks > a {
@@ -87,12 +87,12 @@ nav {
     color: snow;
     font-size: 1.5rem;
     margin-left: 1rem;
+    margin-left: 1em;
 }
 #navLinks > a:hover{
     text-decoration: none;
     color: snow;
     font-size: 1.5rem;
-    margin-left: 1rem;
     border-bottom: 1px solid transparent;
     border-image:  linear-gradient( to right, #40a832, #32a879,#3232a8,#7932a8,#a83234,#40a832, #32a879,#3232a8,#7932a8,#a83234,#a83234 ,#40a832, #32a879,#3232a8,#7932a8);
     border-image-slice: 1;
@@ -121,9 +121,13 @@ nav {
     grid-row: 1/3;
     justify-self: center;
     align-self: center;
-    width: 23rem;
+    width: 27rem;
+    right: 1em;
+    position: relative;
+    bottom: 1em;
 }
 #home > p{
+    z-index: 5;
     color: wheat;
     grid-row: 2;
     grid-column: 2/4;
@@ -146,6 +150,9 @@ nav {
         font-size: 1.5rem;
         text-align: center;
         margin-top: -15rem;
+    }
+    #annitials{
+        font-size: 4rem ;
     }
     #home > img{
         border-radius: 50%;
@@ -235,7 +242,9 @@ nav {
 }
 
 .socials > img{
+    position: relative;
     width: 2rem;
+    left: 11em;
 }
 #socialMedia {
     grid-column: 3;
