@@ -163,6 +163,9 @@ nav {
         width: 23rem;
         margin-top: -9em;
     }
+    .socialMedia{
+        margin-right: 900px;
+    }
     
     #navLinks{
         display: none;
@@ -244,12 +247,12 @@ nav {
 .socials > img{
     position: relative;
     width: 2rem;
-    left: 11em;
 }
 #socialMedia {
     grid-column: 3;
     grid-row: 3;
     margin-top: -3em;
-    justify-self: center;
+    justify-self: end;
+    margin-right: 2em;
 }
 
