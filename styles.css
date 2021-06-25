@@ -332,6 +332,37 @@ span:nth-child(4) {
         font-size: 36px;
         margin-left: 50px;
     }
+    .center-con{
+        
+        height: 30px;
+        align-items: center;
+        justify-self:center;
+        margin-top: -7em;
+        left: 50vh;
+        
+        
+    }
+    .round{
+        position: relative;
+        border:3px solid #fff;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        align-items: center;
+        justify-self:center;
+        left: 6vw;
+    }
+    .spln{
+        z-index: 999;
+        height: 2.4px;
+        margin: 1px;
+        width: 24px;
+        background: #fff;
+        transition: 0.4s;
+        color:transparent;
+        background-image: linear-gradient( to right, #40a832, #32a879,#3232a8,#7932a8,#a83234,#40a832, #32a879,#3232a8,#7932a8,#a83234,#a83234 ,#40a832, #32a879,#3232a8,#7932a8);
+        background-clip: text;
+    }
 
  
 }
@@ -365,7 +396,7 @@ span:nth-child(4) {
         align-items: center;
         justify-content:center ;
         justify-self: center;
-        
+        margin-top: -14em;;
         
     }
 
