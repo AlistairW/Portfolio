@@ -428,7 +428,7 @@ p{
     }
    
    }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 376px){
     
     body{
         max-width: 100vw;
@@ -452,6 +452,7 @@ p{
     }
     .round{
         border:1px solid #fff;
+        
     }
     #home > p{
         color: wheat;
@@ -464,11 +465,23 @@ p{
         text-align: center;
         margin-top: -19rem;
     }
-    .aboutPara{
-        font-size: 0.5em;
+    #about_me{
+        grid-template-columns: none;
+        margin-top: 25rem;
+    }
+    #about_me > p{
+        font-size: 1em;
+        line-height: 26px;
+        grid-column: 1/3;
+        padding-left: 25px;
+        padding-right: 25px;
+        justify-self: center;
     }
     #myface{
         width:12rem;
+    }
+    #arrow_about_me{
+        margin-top: -45rem;
     }
 }
 
@@ -515,8 +528,6 @@ p{
         text-align: center;
         margin-top: -19rem;
     }
-    .aboutPara{
-        font-size: 5px;
-    }
+
 }
 /* SMALL PHONES */
