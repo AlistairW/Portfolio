@@ -45,7 +45,7 @@ nav {
     align-self: center;
     position: fixed;
     margin-top: 23px;
-    margin-left:0.6em;
+    left: 3%;
     color:transparent;
     background-image: linear-gradient( to right, #40a832, #32a879,#3232a8,#7932a8,#a83234,#40a832, #32a879,#3232a8,#7932a8,#a83234,#a83234 ,#40a832, #32a879,#3232a8,#7932a8);
     background-clip: text;
@@ -251,9 +251,64 @@ p{
     font-size: 11px;
 }
 
+/* 
+PROJECTS PAGE */
+
 
 #projects{
     height: 130vh;
+    padding: 10%;
+}
+
+
+#PCbake{
+    width: 60%;
+    margin-bottom: 8% ;
+    border-radius: 1%;
+}
+#PhoneBake{
+    width: 22%;
+    padding-left: 3%;
+    border-radius: 5%;
+}
+#projectArrow{
+    position: relative;
+    left:90%;
+    margin-top: -55%;
+}
+
+#git{
+    color: white;
+    margin-top: 75vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+#gitSec{
+    margin-bottom: 15%;
+}
+#gitimg{
+    margin-left: 33%;
+}
+
+
+/* CONTACT */
+#Contact-con{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    background-color: #fff;
+    height: 30vh;
+}
+#callMe{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    font-family: 'Lobster', cursive;
+}
+#contactcont{
+    grid-column: 2/3;
+    margin:  auto;
 }
 
 
