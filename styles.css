@@ -619,9 +619,10 @@ PROJECTS PAGE */
     }
     #PCbake{
         padding-top: 60px;
-        width: 120%;
+        width: 117%;
         margin-bottom: 8% ;
         border-radius: 1%;
+        margin-left: -7%;
     }
     #PhoneBake{
         width: 60%;
