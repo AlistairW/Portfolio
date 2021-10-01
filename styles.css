@@ -603,9 +603,10 @@ PROJECTS PAGE */
         justify-self: center;
         align-self: center;
         font-family: 'Cedarville Cursive', cursive;
-        font-size: 1.5rem;
+        font-size: 12px;
         text-align: center;
-        margin-top: -19rem;
+        margin-top: -18rem;
+        margin-left: -5px;
     }
     #projectArrow{
         position: relative;
