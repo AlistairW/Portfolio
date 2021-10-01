@@ -268,7 +268,7 @@ PROJECTS PAGE */
 }
 #PhoneBake{
     width: 22%;
-    padding-left: 3%;
+    margin-left: 3%;
     border-radius: 5%;
 }
 #projectArrow{
@@ -562,7 +562,7 @@ PROJECTS PAGE */
     }
 
     #myface {
-        width:10rem;
+        width:8rem;
     }
     #home > p{
         color: wheat;
