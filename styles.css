@@ -553,7 +553,7 @@ PROJECTS PAGE */
     }
     #contactcont {
         grid-column: 1/3;
-        margin-right: -33%;
+        margin-right: -31%;
     }
     p{
         font-size: 2rem;
