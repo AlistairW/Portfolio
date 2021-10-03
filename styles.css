@@ -260,7 +260,12 @@ PROJECTS PAGE */
     height: 130vh;
     padding: 10%;
 }
-
+#projects > p{
+    font-family: 'roboto';
+    color: white;
+    font-size: 2rem;
+    padding-top: 20%;
+}
 
 #PCbake{
     width: 60%;
@@ -317,13 +322,18 @@ PROJECTS PAGE */
 
 
 /* ///////////////////////////////////////Media  */
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1600px){
     #arrow_about_me{
         position: relative;
-        top:800px;
+        top: 52px;
+        right: -11%;
     }
     #myface{
         width: 26rem;
+    }
+    #contactArrow{
+        margin-left: 1133px;
+        margin-top: -600px;;
     }
 }
 @media only screen and (max-width: 1300px) {
@@ -461,6 +471,11 @@ PROJECTS PAGE */
         color:transparent;
         background-image: linear-gradient( to right, #40a832, #32a879,#3232a8,#7932a8,#a83234,#40a832, #32a879,#3232a8,#7932a8,#a83234,#a83234 ,#40a832, #32a879,#3232a8,#7932a8);
         background-clip: text;
+    }
+
+    #contactArrow{
+        margin-left: 800px;
+        margin-top: -500px;
     }
 
  
